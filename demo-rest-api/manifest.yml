@@ -1,0 +1,11 @@
+applications:
+- name: demo-greeting-spring-restapi
+  instances: 1
+  disk_quota: 256M
+  memory: 256M 
+  routes:
+  - route: demo-greeting-spring-restapi.cfapps.us10.hana.ondemand.com
+  path: target\demo-greeting-spring-restapi-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
+
+
