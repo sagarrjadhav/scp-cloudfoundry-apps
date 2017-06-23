@@ -1,2 +1,2 @@
-# cloudfoundry-apps
-Cloud Foundry Applications
+# scp-cloudfoundry-apps
+SCP Cloud Foundry Applications
