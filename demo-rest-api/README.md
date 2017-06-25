@@ -1,1 +1,1 @@
-Getting Started with Cloud Foundry on SAP Cloud Platform - Demo Application
+Getting Started: Developing and deploying apps on SCP Cloud Foundry environment - Demo Application
