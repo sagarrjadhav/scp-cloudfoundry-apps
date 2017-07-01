@@ -1,0 +1,10 @@
+applications:
+- name: demo-greeting-spring-api
+  instances: 1
+  disk_quota: 256M
+  memory: 256M 
+#   routes:
+#   - route: <domain>.cfapps.us10.hana.ondemand.com
+  random-route: true
+  path: target\demo-greeting-spring-api-0.0.1-SNAPSHOT.jar
+  buildpack: java_buildpack
