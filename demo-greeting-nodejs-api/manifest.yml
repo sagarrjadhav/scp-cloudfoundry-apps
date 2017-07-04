@@ -1,0 +1,6 @@
+applications:
+- name: demo-greeting-nodejs-api
+  instances: 1
+  buildpack: nodejs_buildpack
+  command: node index.js
+  random-route: true

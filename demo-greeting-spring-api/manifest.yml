@@ -6,5 +6,5 @@ applications:
 #   routes:
 #   - route: <domain>.cfapps.us10.hana.ondemand.com
   random-route: true
-  path: target\demo-greeting-spring-api-0.0.1-SNAPSHOT.jar
+  path: java_restapi\target\demo-greeting-spring-api-0.0.1-SNAPSHOT.jar
   buildpack: java_buildpack

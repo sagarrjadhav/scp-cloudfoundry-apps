@@ -1,0 +1,22 @@
+{
+  "name": "demo-greeting-nodejs-api",
+  "version": "1.0.0",
+  "description": "Node.js Greeting REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stryker0301/scp-cloudfoundry-apps.git"
+  },
+  "author": "Sagar J",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stryker0301/scp-cloudfoundry-apps/issues"
+  },
+  "homepage": "https://github.com/Stryker0301/scp-cloudfoundry-apps#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
