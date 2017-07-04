@@ -5,7 +5,7 @@ var expressServer = express();
 
 // Script the HTTP GET response handler for /greet
 expressServer.get("/greet", function(request, response){
-    response.json({ greetingContent: "Hello, Sagar. Ready to develop and deploy apps on the CF runtime ?" });
+    response.json({ greetingContent: "Hello, World. Ready to develop and deploy apps on the CF runtime ?" });
 });
 
 // Start the server
