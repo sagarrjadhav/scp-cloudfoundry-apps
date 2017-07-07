@@ -3,10 +3,10 @@
 const express = require("express");
 const Greeting = require("./greeting.js");
 
-var greetingCounter = 1;
-
 // Create an express application
 const app = express();
+
+var greetingCounter = 1;
 
 // Script the HTTP GET response handler for /greet
 app.get("/greet", (request, response) => {
